@@ -1,5 +1,5 @@
 <template>
-  <div class="securityresearch">
+  <div class="skills">
       <div class="title">
         <el-divider content-position="center">个人技能</el-divider>
         <p><el-tag>vue全家桶</el-tag><el-tag >javascript</el-tag><el-tag>css</el-tag></p>
@@ -16,16 +16,16 @@
   </div>
 </template>
 <style>
-  .securityresearch .title p .el-tag{
+  .skills .title p .el-tag{
     margin: 0px 5px;
     cursor: pointer;
   }
-  .securityresearch .box-card .text{
+  .skills .box-card .text{
     text-align: left;
   }
 </style>
 <style scoped>
-  .securityresearch{
+  .skills{
     font-size: 14px;
     padding: 0px 100px;
   }
@@ -126,6 +126,6 @@
 </style>
 <script>
 export default {
-  name: 'SecurityResearch'
+  name: 'Skills'
 }
 </script>

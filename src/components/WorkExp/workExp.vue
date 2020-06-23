@@ -1,5 +1,5 @@
 <template>
-  <div class="productpage">
+  <div class="word-exp">
     <div class="title">
       <el-divider content-position="center">工作经历</el-divider>
       <p><el-tag >某司</el-tag><el-tag>某某司</el-tag></p>
@@ -26,19 +26,19 @@
     </div>
     <div class="project">
       <div class="content" @click="drawerHander(1)" >
-          <img src='../../assets/p1.jpg' class='ifns'>
+          <img src='../../assets/1.jpg' class='ifns'>
           <div class='hover'>
             <p>项目1</p>
           </div>
       </div>
       <div class="content" @click="drawerHander(2)">
-        <img src='../../assets/p1.jpg' class='ifns'>
+        <img src='../../assets/1.jpg' class='ifns'>
         <div class='hover'>
         <p>项目2</p>
         </div>
       </div>
       <div class="content" @click="drawerHander(3)">
-        <img src='../../assets/p1.jpg' class='ifns'>
+        <img src='../../assets/1.jpg' class='ifns'>
         <div class='hover'>
           <p>项目3</p>
         </div>
@@ -48,7 +48,8 @@
       :title="projectInfo[currentIndex]['title']"
       :visible.sync="drawer"
       :direction="direction"
-      :before-close="handleClose">
+      :before-close="handleClose"
+      size='40%'>
         <p class='info'>
           <el-row>
             <el-col :span="24">
@@ -165,10 +166,10 @@ export default {
   }
 </style>
 <style scoped>
-  .productpage{
+  .word-exp{
     padding: 0px 100px 0px 100px;
   }
-  .productpage .project{
+  .word-exp .project{
     display: flex;
     justify-content:space-around;
   }

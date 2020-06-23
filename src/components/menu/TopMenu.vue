@@ -46,7 +46,7 @@
 <style scoped>
   .logo-title{
     position: absolute;
-    left: 100px;
+    left: 80px;
     top: 0px;
     color:#fff;
     font-size:26px;
@@ -71,9 +71,9 @@ export default {
     handleSelect (index, indexPath) {
       var name = ''
       if (index === '1') name = 'homepage'
-      if (index === '4') name = 'productpage'
-      if (index === '3') name = 'securityresearch'
-      if (index === '2') name = 'aboutus'
+      if (index === '4') name = 'word-exp'
+      if (index === '3') name = 'skills'
+      if (index === '2') name = 'profile'
       var targetEle = document.querySelector('.' + name)
       var offsetTop = targetEle.offsetTop
       document.documentElement.scrollTop = offsetTop - 150

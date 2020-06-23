@@ -1,5 +1,5 @@
 <template>
-  <div class="aboutus">
+  <div class="profile">
     <div class="title">
       <el-divider content-position="center">个人简介</el-divider>
       <p><el-tag>xxxx大学</el-tag><el-tag>本科</el-tag></p>
@@ -30,30 +30,30 @@
 </template>
 <script>
 export default {
-  name: 'AboutUs'
+  name: 'Profile'
 }
 </script>
 <style>
-  .aboutus .grid-content.line{
+  .profile .grid-content.line{
     border-right: 1px solid #ddd;
     height: 150px;
   }
-  .aboutus .el-card__header{
+  .profile .el-card__header{
     background: #545c64;
   }
-  .aboutus .el-card__body{
+  .profile .el-card__body{
     padding: 50px 20px;
   }
-  .aboutus .el-timeline-item__wrapper{
+  .profile .el-timeline-item__wrapper{
     top: -8px;
   }
-  .aboutus .title p .el-tag{
+  .profile .title p .el-tag{
     margin: 0px 5px;
     cursor: pointer;
   }
 </style>
 <style scoped>
-  .aboutus{
+  .profile{
     font-size: 14px;
     text-align: left;
     padding: 0px 100px;

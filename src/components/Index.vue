@@ -4,30 +4,30 @@
       <!-- 首页 -->
       <HomePage></HomePage>
       <!-- 个人简介 -->
-      <AboutUs></AboutUs>
+      <profile></profile>
       <!-- 个人技能 -->
-      <SecurityResearch></SecurityResearch>
+      <skills></skills>
       <!-- 工作经历 -->
-      <Products></Products>
+      <workExp></workExp>
       <!-- 页脚 -->
       <Footer></Footer>
   </div>
 </template>
 <script>
 import topMenu from './menu/TopMenu'
-import AboutUs from './AboutUs/AboutUs'
+import profile from './Profile/profile'
 import HomePage from './home/HomePage'
-import Products from './product/Products'
-import SecurityResearch from './SecurityResearch/SecurityResearch'
+import skills from './Skills/skills'
+import workExp from './WorkExp/workExp'
 import Footer from './Footer/Footer'
 export default {
   name: 'Index',
   components: {
     topMenu,
     HomePage,
-    Products,
-    SecurityResearch,
-    AboutUs,
+    profile,
+    skills,
+    workExp,
     Footer
   }
 }
